@@ -4,11 +4,11 @@ cmake_minimum_required(VERSION 2.8)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 ")
 
 find_package(nlopt REQUIRED)
-set(NLOPT_LIB_DIR "")
+set(NLOPT_LIB_DIR "../build/nlopt-2.7.1")
 set(NLOPT_LIB ${NLOPT_LIBRARIES})
 
 find_package(Armadillo REQUIRED)
-set(ARMADILLO_LIB_DIRS "")
+set(ARMADILLO_LIB_DIRS "../build/armadillo-11.2.3")
 set(ARMADILLO_LIB ${ARMADILLO_LIBRARIES})
 
 
