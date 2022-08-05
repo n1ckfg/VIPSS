@@ -1,5 +1,5 @@
-adduser newuser
-usermod -aG sudo newuser
+adduser --disabled-password --gecos "" newuser
+#usermod -aG sudo newuser
 su newuser
 
 bash install-brew-colab.sh
