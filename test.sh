@@ -1,2 +1,2 @@
-./vipss/vipss -i data/bathtub/input.xyz -o output/bathtub.ply
+./vipss/vipss -i data/walrus/input.xyz -o output walrus.ply
 
