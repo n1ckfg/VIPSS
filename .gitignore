@@ -1,5 +1,8 @@
 build/
 vipss/CMakeFiles/
 vipss/CMakeCache.txt
+vipss/Makefile
+vipss/cmake_install.cmake
+vipss/vipss
 
 
