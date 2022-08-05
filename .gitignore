@@ -1,4 +1,5 @@
 build/
+output/
 vipss/CMakeFiles/
 vipss/CMakeCache.txt
 vipss/Makefile
